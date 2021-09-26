@@ -20,6 +20,7 @@
   },
   "main": "background.js",
   "dependencies": {
+    "boswell-core": "^0.1.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
@@ -83,7 +84,6 @@
   },
   "homepage": "https://github.com/Rillian-Grant/boswell#readme",
   "license": "GPL-3.0-or-later",
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rillian-Grant/boswell.git"
