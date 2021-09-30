@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/boswellCore/awsm.css">
+    <title>Boswell</title>
+</head>
+<body>
+    <header>
+        <a href="/"><h1>Boswell</h1></a>
+        <p>Documenting your journeys</p>
+        <nav>
+            <ul>
+                <!--
+                <li><a href="#1">One</a></li>
+                <li><a href="#2">Two</a></li>
+                <li><a href="#3">Three</a></li>
+                <li>
+                -->
+                    <form action="/" method="GET">
+                        {{ search }}
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            {% block content %}
+            {% endblock %}
+        </article>
+    </main>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>

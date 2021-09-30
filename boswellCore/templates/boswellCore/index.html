@@ -1,0 +1,12 @@
+{% extends "boswellCore/wrappers/main.html" %}
+
+{% block content %}
+
+{% for entry in entries %}
+<section>
+    <h2><a id="{{ entry.id }}" href="#{{ entry.id }}" aria-hidden="true"></a></h2>
+    <p>{{ entry.content|safe }}</p>
+</section>
+{% endfor %}
+
+{% endblock %}
